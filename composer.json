@@ -1,0 +1,23 @@
+{
+	"name": "netrisk/name-day-parser",
+	"description": "Senior job application test",
+	"type": "project",
+	"require": {
+		"php": "^7.2"
+	},
+	"authors": [
+		{
+			"name": "Kolossa Márton",
+			"email": "kolosssa@gmail.com"
+		}
+	],
+	"minimum-stability": "dev",
+	"autoload": {
+		"psr-4": {
+			"netrisk\\Nameday\\Parser\\": "src/netrisk/Nameday/Parser"
+		}
+	},
+	"require-dev": {
+        "phpunit/phpunit": "^8"
+    }
+}
